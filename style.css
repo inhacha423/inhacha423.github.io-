@@ -1,0 +1,158 @@
+body {
+    font:100%/1.2 ''dotum'
+}
+/* class for fonts */
+.poppin {
+    font-family: 'Poppins', sans-serif;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.inaPicture{
+    display: flex;
+    justify-content: center;
+}
+.about-txt{
+    margin-left: 27.78%;
+    margin-top: 4.9%;
+    width: 65.13%;
+}
+
+p {
+    font-family: 'Noto Sans';
+    font-size: 13px;
+}
+p.title-txt {
+    margin-left: 1.0%;
+}
+p.research-txt{
+    margin-left: 1.91%;
+}
+.navbar {
+    display: flex;
+    height: 21%;
+    width: 100%;
+    align-items: center;
+    margin-top:3.95%;
+}
+svg.logo{
+    position: relative;
+    overflow: hidden;
+    width: 10%;
+    margin-left: 10%;
+    padding: 0;
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+    width: 90%;
+    margin-right: 9.8%;
+  }
+  .vertical-center {
+    margin: 0;
+    position: relative;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: gray;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: right;
+  }
+  .inaPicture{
+      width: 50%;
+  }
+
+  li a:hover {
+    color: #7D142E;
+  }
+
+  .intro {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin-top: 11.85%;
+    justify-content: center;
+    align-items: center;
+  }
+  #svg-btn {
+      float: right;
+  }
+  .main-text {
+      width: 50%;
+  }
+  .inner-txt {
+      align-items: center;
+      width: 82%;
+  }
+  .topic {
+      margin-top:3.5%
+  }
+  .title {
+      display: flex;
+      align-items: center;
+  }
+  .journey {
+      margin-top: 11.11%
+  }
+
+
+  .sidenav {
+    width: 210px;
+    height: 59px;
+    position: fixed;
+    z-index: 1;
+    top: 26.35%;
+    left: 144px;
+    background: transparent;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .sidenav a {
+    text-decoration: none;
+    font-size: 0.75rem;
+    color: #616161;
+    display: block;
+  }
+  .pubs {
+      margin-top: 2.7%;
+      margin-bottom: 8.22%;
+  }
+  .pub-title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    font-size: 1.12rem;
+    margin-top: 2.7%;
+  }
+  .pub-conts{
+      color: #616161;
+      margin-top: 2.16%;
+      
+  }
+
+  .line {
+      margin-top: 2.7%;
+      border-bottom: 0.5px solid #818181;
+  }
