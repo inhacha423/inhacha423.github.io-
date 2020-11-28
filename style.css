@@ -5,7 +5,9 @@ body {
 .poppin {
     font-family: 'Poppins', sans-serif;
 }
-
+.logo {
+    margin-left: 9.79%;
+}
 .wrapper {
     display: flex;
     flex-direction: column;
@@ -16,17 +18,24 @@ body {
 }
 
 .inaPicture{
-    display: flex;
-    justify-content: center;
+    display: flex;  
+    flex-direction: row;
+    width: 50%;
+    justify-content: flex-end;
+    margin-right: 3.51%;
 }
 .about-txt{
     margin-left: 27.78%;
     margin-top: 4.9%;
     width: 65.13%;
 }
-
+.about-txt2 {
+    margin-left: 20%;
+    margin-top: 4.9%;
+    width: 65.13%;
+}
 p {
-    font-family: 'Noto Sans';
+    font-family:'Noto Sans KR', sans-serif;;
     font-size: 13px;
 }
 p.title-txt {
@@ -78,6 +87,7 @@ ul {
     padding: 14px 16px;
     text-decoration: none;
     float: right;
+    font-family: Poppins;
   }
   .inaPicture{
       width: 50%;
@@ -103,7 +113,7 @@ ul {
   }
   .inner-txt {
       align-items: center;
-      width: 82%;
+      width: 87%;
   }
   .topic {
       margin-top:3.5%
