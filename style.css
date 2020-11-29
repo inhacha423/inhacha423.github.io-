@@ -5,6 +5,7 @@ html {
 body {
     width: 100%;
     font:100%/1.2;
+    margin-left: 0;
 }
 footer {
     width: 100%;
@@ -142,7 +143,7 @@ ul {
   li {
     float: right;
   }
-  a.nondeco:link {text-decoration: none;}
+  a.nondeco:link {text-decoration: none; color: black;}
   a.nondeco:visited {text-decoration: none; color:black;}
   a.nondeco:active {text-decoration: none; }
   a.nondeco:hover{text-decoration: none; color: #7D142E;}
@@ -207,7 +208,9 @@ ul {
     flex-direction: column;
     justify-content: space-around;
   }
-
+  .sidenav-sel{
+      color: 
+  }
   .sidenav a {
     text-decoration: none;
     font-size: 0.75rem;
