@@ -207,6 +207,7 @@ ul {
     flex-direction: column;
     justify-content: space-around;
   }
+
   .sidenav a {
     text-decoration: none;
     font-size: 0.75rem;
