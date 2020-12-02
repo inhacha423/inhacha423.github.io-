@@ -90,12 +90,12 @@ footer {
 }
 .about-txt{
     margin-left: 27.78%;
-    margin-top: 4.9%;
+    margin-top: 11.18%;
     width: 65.13%;
 }
 .about-txt2 {
     margin-left: 20%;
-    margin-top: 4.9%;
+    margin-top: 11.18%;
     width: 65.13%;
 }
 p {
@@ -109,17 +109,22 @@ p.research-txt{
     margin-left: 1.91%;
 }
 .navbar {
+    background-color: white;
     display: flex;
-    height: 21%;
+
     width: 100%;
     align-items: center;
-    margin-top:3.95%;
+    /* margin-bottom:4.93%; */
+    top:0;
+    position: fixed;
 }
 svg.logo{
     position: relative;
     overflow: hidden;
     width: 10%;
     margin-left: 8.49%;
+    margin-top:3.96%;
+    margin-bottom: 4.93%;
     padding: 0;
 
 }
@@ -208,9 +213,7 @@ ul {
     flex-direction: column;
     justify-content: space-around;
   }
-  .sidenav-sel{
-      color: 
-  }
+
   .sidenav a {
     text-decoration: none;
     font-size: 0.75rem;
@@ -220,6 +223,9 @@ ul {
   .pubs {
       margin-top: 2.7%;
       margin-bottom: 8.22%;
+  }
+  .pub-wrapper {
+      margin-top: 11.11%;
   }
   .pub-title {
     font-family: 'Poppins', sans-serif;
