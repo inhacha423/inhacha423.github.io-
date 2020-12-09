@@ -250,6 +250,17 @@ li a:hover {
     font-weight: 300;
 }
 
+
+.inner-txt2 {
+    align-items: center;
+    width: 78%;
+    vertical-align: text-top;
+    line-height: 145%;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+
 .topic {
     margin-top: 3.5%
 }
