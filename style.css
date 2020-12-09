@@ -135,10 +135,12 @@ p.title-txt {
     margin-left: 1.0%;
 }
 
+
 p.research-txt {
     margin-left: 1.91%;
     margin-top: 0;
-    font-weight: 300;
+    font-weight: 400;
+    color: #616161;
 }
 
 .navbar {
@@ -238,12 +240,14 @@ li a:hover {
     width: 50%;
 }
 
+
 .inner-txt {
     align-items: center;
     width: 78%;
     vertical-align: text-top;
-    line-height: 125%;
+    line-height: 130%;
     padding-top: 1rem;
+    font-weight: 300;
 }
 
 .topic {
