@@ -120,7 +120,7 @@ footer {
 }
 
 .about-txt2 {
-    margin-left: 10%;
+    margin-left: 18.75%;
     margin-top: 11.18%;
     width: 65.13%;
 }
@@ -308,6 +308,10 @@ li a:hover {
     justify-content: space-around;
 }
 
+.sidenav-font{
+    font-size: 2rem;
+}
+
 .sidenav a {
     text-decoration: none;
     font-size: 0.75rem;
@@ -348,13 +352,14 @@ li a:hover {
     display: flex;
     flex-direction: column;
     margin-top:16.67%;
+    margin-left:18.75%;
     overflow: hidden;
 
 }
 .row {
     width: 81.67%;
     height: 50%;
-    margin-left: 11.32%; 
+    float: left;
     margin-right: 7.08%;
     overflow: hidden;
 
