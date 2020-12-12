@@ -445,11 +445,11 @@ li a:hover {
     font-size: 0.8rem;
     font-weight: 600;
     color: #616161;
-   
+  
   }
   .p-txt-font {
     font-family: 'Noto Sans KR', sans-serif;
-    font-size: 13px;
+    font-size: 0.8rem;
     margin-top: 0;
     font-weight: 300;
     color: #212121;
