@@ -205,6 +205,26 @@ a.nondeco:hover {
     color: #7D142E;
 }
 
+
+a.poster:link {
+    text-decoration: none;
+    color: #7D142E;
+}
+
+a.poster:visited {
+    text-decoration: none;
+    color: #7D142E;
+}
+
+a.poster:active {
+    text-decoration: none;
+}
+
+a.poster:hover {
+    text-decoration: none;
+    color: #7D142E;
+}
+
 li a {
     display: block;
     color: #818181;
@@ -392,7 +412,6 @@ li a:hover {
       margin-bottom: 4.17%;
       width: 100%;
       height: 100%;
-      
   }
   .project-intro{
       display: flex;
@@ -409,26 +428,32 @@ li a:hover {
       width: 61.79%;
   }
   .p-title-font{
+    /* font-size:  1.67rem; */
     font-size:  1.67rem;
     font-family: 'Poppins', sans-serif;
     font-weight: 900;
   }
   .p-expl-font{
+    /* font-size:  1.28rem; */
     font-size:  1.28rem;
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
     margin-top: 0;
   }
   .p-category-font{
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #616161;
     
   }
   .p-txt-font {
     font-family: 'Noto Sans KR', sans-serif;
-    font-size: 15px;
+    font-size: 13px;
     margin-top: 0;
     font-weight: 200;
     color: #212121;
-    line-height: 150%;
+    line-height: 160%;
   }
   .video {
       display: flex;
@@ -439,3 +464,13 @@ li a:hover {
       margin-top: 4.17%;
       justify-content: center;
   }
+
+  .m-title {
+      font-size: 1rem;
+      font-weight: 600;
+
+  }
+
+.m-cont{
+    line-height: 150%;    
+}
