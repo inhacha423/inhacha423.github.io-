@@ -364,7 +364,7 @@ li a:hover {
 
 }
 .row {
-    width: 91.28;
+    width: 90.28;
     height: 50%;
     float: left;
     margin-right: 7.08%;
@@ -485,4 +485,18 @@ li a:hover {
 
 .m-cont{
     line-height: 150%;    
+}
+
+/* contact */
+
+.contact-img {
+    margin-top: 0;
+}
+.contact-img figcaption {
+    text-align: center;
+    font-size: 0.61rem;
+}
+.contact-txt {
+    margin-left: 9.79%;
+    width: 39.31%;
 }
