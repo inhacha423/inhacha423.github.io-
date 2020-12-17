@@ -306,17 +306,7 @@ li a:hover {
 }
 
 .sidenav {
-  width: 210px;
-  height: 59px;
-  position: fixed;
-  z-index: 1;
-  top: 26.35%;
-  left: 144px;
-  background: transparent;
-  overflow-x: hidden;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
+  display: none;
 }
 
 .sidenav-font {
@@ -534,5 +524,19 @@ li a:hover {
     display: flex;
     flex-direction: row;
     overflow: hidden;
+  }
+
+  .sidenav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 210px;
+    height: 59px;
+    position: fixed;
+    z-index: 1;
+    top: 26.35%;
+    left: 144px;
+    background: transparent;
+    overflow-x: hidden;
   }
 }
