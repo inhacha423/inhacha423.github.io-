@@ -506,6 +506,15 @@ li a:hover {
   width: 50%;
 }
 
+.caption-con {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 0.75rem;
+  font-weight: 100;
+  color: #616161;
+  text-align: center;
+  margin-top: 1%; 
+}
+
 /* media query */
 @media screen and (min-width: 768px) {
   .main-container {
