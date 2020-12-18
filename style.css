@@ -109,10 +109,10 @@ footer {
 
 .notokr {
   font-family: 'Noto Sans KR', sans-serif;
-  font-size: 0.7rem;
-  font-weight: 100;
-  color: #818181;
-  text-align: center;
+  font-size: 0.9rem;
+  font-weight: 300;
+  color: #616161;
+  text-align: left;
   margin-top: 1%;
 }
 
@@ -158,11 +158,11 @@ p.differ {
 }
 
 p.title-txt {
-  margin-left: 1%;
+
+  color: #212121;
 }
 
 p.research-txt {
-  margin-left: 1.91%;
   margin-top: 0;
   font-weight: 400;
   color: #616161;
@@ -353,6 +353,13 @@ li a:hover {
   height: 100%;
 }
 
+.project-main-container{
+  display: flex;
+  flex-direction: column;
+  
+  margin-top: 15vh; 
+}
+
 .project-cont {
   display: flex;
   flex-direction: column;
@@ -396,7 +403,7 @@ li a:hover {
   color: white;
   top: 5.1%;
   left: 5.1%;
-  font-size: 20px;
+  font-size: 15px;
   position: absolute;
 }
 
@@ -447,12 +454,22 @@ li a:hover {
 }
 .p-txt-font {
   font-family: 'Noto Sans KR', sans-serif;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   margin-top: 0;
   font-weight: 300;
   color: #212121;
-  line-height: 165%;
+  line-height: 170%;
 }
+.p-bullet {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 0.9rem;
+  line-height: 170%;
+  font-weight: 500;
+  color: #616161;
+  text-align: left;
+  justify-content: left;
+  margin-top: 1%;
+  }
 .video {
   display: flex;
   justify-content: center;
@@ -462,6 +479,8 @@ li a:hover {
   display: flex;
   margin-top: 4.17%;
   justify-content: center;
+  text-align: center;
+
 }
 
 .m-title {
@@ -472,6 +491,7 @@ li a:hover {
 .m-cont {
   line-height: 150%;
 }
+
 
 /* contact */
 
