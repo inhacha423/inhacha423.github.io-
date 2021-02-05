@@ -569,3 +569,9 @@ li a:hover {
     overflow-x: hidden;
   }
 }
+
+@media (max-width: 768px){
+  .project-title{
+  width: 100%;
+}
+}
