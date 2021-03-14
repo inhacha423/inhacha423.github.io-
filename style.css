@@ -12,8 +12,8 @@ body {
 
 footer {
   width: 100%;
-  bottom: 0;
-  left: 0;
+  bottom: 0px;
+  left: 0px;
   display: flex;
   background-color: #7d142e;
   justify-content: center;
