@@ -332,6 +332,8 @@ li a:hover {
 }
 
 .pub-expl {
+  font-family: 'Monteserrat';
+  font-weight: 400;
   font-size: 0.7rem;
 }
 
